@@ -16,3 +16,4 @@ docker run -d -p 8569:22 root2
 docker run -d -p 6666:9999 overflow2
 docker run -d -p 8679:9999 overflow3
 docker run -d -p 8364:9999 diffie
+docker run --rm --name pr-hydracrack -d -p 3389:22 hydracrack
