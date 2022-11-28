@@ -116,5 +116,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-echo "the flag is cccs{M@k3_Str0ng_P@$$w0rds}"
+echo "the flag is cccs{M@k3_Str0ng_P@ssw0rds}"
 exit
