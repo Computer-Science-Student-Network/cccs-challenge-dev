@@ -3,6 +3,14 @@
 cd /home/scie/CTFd
 docker-compose up -d
 
+cd /home/scie/cccs/CTF-Docker-Individual-Instances
+screen -dmS IndInst python3 server.py  
+
+
+#kill all pr containers
+docker kill $(docker ps --format '{{.Names}}' | grep pr-)
+docker kill $(docker ps --format '{{.Names}}' | grep t-)
+
 docker run --rm --name pr-lfi2 -d -p 7655:80 lfi2
 docker run --rm --name pr-lfi1 -d -p 7654:80 lfi1
 docker run --rm --name pr-quitvim-d -p 2222:22 quitvim
