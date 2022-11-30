@@ -4,7 +4,7 @@ cd /home/scie/CTFd
 docker-compose up -d
 
 cd /home/scie/cccs/CTF-Docker-Individual-Instances
-screen -dmS IndInst python3 server.py  
+screen -dmS IndInst python3 app.py  
 
 
 #kill all pr containers

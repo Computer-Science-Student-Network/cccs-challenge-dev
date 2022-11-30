@@ -14,4 +14,5 @@ docker build -t overflow ./overflow
 docker build -t quitvim ./quitvim
 docker build -t lfi1 ./lfi1
 docker build -t lfi2 ./lfi2
-docker build -d flaskinjection ./flaskinjection
+docker build -t flaskinjection ./flaskinjection
+docker build -t fileupload ./fileupload
