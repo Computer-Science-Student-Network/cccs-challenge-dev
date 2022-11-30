@@ -3,9 +3,9 @@ WORKDIR /usr/src/app
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
 #Server will reload itself on file changes if in dev mode
-ENV FLASK_ENV=development 
+#ENV FLASK_ENV=development 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-COPY server.py server.py
+COPY app.py app.py
 COPY templates/ templates/
-CMD ["flask", "run"]
+CMD ["flask", "run", "-p", "80"]
