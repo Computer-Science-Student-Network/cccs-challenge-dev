@@ -4,9 +4,10 @@
 We all got a crazy uncle Ben, and this one runs a car dealership! In typical uncle Ben fashion, he didn't check to see if his website had any vulnerabilities. Can you find all of the user's passwords?
 
 ## Hints
-- Ever heard of SQLite injection?
 - https://www.sqlite.org/faq.html#q7 
 - Try to find the "users" table
+- Look  at the image url
+
 
 ## Solution
 We know that we're looking for the user's passwords, so we need to find a database somewhere. When we put a double quote into the search bar, we see that it throws a server error. This means it's vulnerable to SQL Injection.
