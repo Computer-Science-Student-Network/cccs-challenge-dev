@@ -15,7 +15,7 @@ INSERT INTO "users" ("name", "age", "password") VALUES ("Walter W. Walter", 50, 
 INSERT INTO "users" ("name", "age", "password") VALUES ("Walter W. Walter, jr.", 55, "TheR1singSun@!");
 INSERT INTO "users" ("name", "age", "password") VALUES ("Flag", 69, "CCCS{Flag-go-here}");
 
-INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Pontiac Aztek", 5200, "./img/aztek.jpg");
-INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Bugatti Chiron", 8.50, "./img/chiron.jpg");
+INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Pontiac Aztek", 19000.99, "./img/aztek.jpg");
+INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Bugatti Chiron", 5, "./img/chiron.jpg");
 INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Smart ForTwo", 37210, "./img/fortwo.jpg");
 INSERT INTO "cars" ("model", "price", "img-link") VALUES ("Lamborghini Aventador", 20, "./img/aventador_svj.png");
