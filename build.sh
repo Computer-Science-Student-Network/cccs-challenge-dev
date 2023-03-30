@@ -1,3 +1,4 @@
+docker build -t find ./find
 #!/bin/bash
 #thanks copilot
 docker build -t hydracrack ./hydracrack
@@ -16,3 +17,4 @@ docker build -t lfi1 ./lfi1
 docker build -t lfi2 ./lfi2
 docker build -t flaskinjection ./flaskinjection
 docker build -t fileupload ./fileupload
+docker build -t biscuit ./biscuit
