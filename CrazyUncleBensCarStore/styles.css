@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+.header{
+    margin-bottom: 0;
+    height: 60vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-color: aquamarine;
+}
+#searchbar{
+    height: 2vh;
+    width: 10vh;
+    text-align: center;
+
+}
+.full-container{
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgb(92, 200, 236)
+}
+.car-img{
+    width: 250px;
+    height: 200px;
+    user-select: none;
+}
+.price{
+    color: green;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.listing{
+    margin-top: 50px;
+}
+.user{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.rating{
+    color: rgb(255, 230, 0);
+    font-size: 12pt;
+}
+button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    user-select: none;
+}
+.login-link{
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    background-color: #696969;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.login-link :hover{
+    background-color: #AAAAAA;
+    text-decoration: none;
+    color: black;
+}
+.login-link :visited{
+    background-color: #696969;
+    text-decoration: none;
+    color: black;
+}

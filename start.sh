@@ -26,5 +26,9 @@ docker run --rm --name pr-overflow3 -d -p 8679:9999 overflow3
 docker run --rm --name pr-diffie -d -p 8364:9999 diffie
 docker run --rm --name pr-hydracrack -d -p 3389:22 hydracrack
 docker run --rm --name pr-flaskinjection -d -p 5890:80 flaskinjection
+<<<<<<< HEAD
 docker run --rm --name pr-biscuit -d -p 8823:80 biscuit
 docker run --rm --name pr-find -d -p 6621:22 find
+=======
+docker run --rm --name pr-crazyuncle -d -p 6969:80 crazyuncle
+>>>>>>> fb2f5b2ec25a927c280d8957903c93b2002d8757

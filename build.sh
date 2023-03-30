@@ -1,6 +1,7 @@
-docker build -t find ./find
+
 #!/bin/bash
 #thanks copilot
+docker build -t find ./find
 docker build -t hydracrack ./hydracrack
 docker build -t diffie ./diffie
 docker build -t overflow3 ./overflow3
@@ -18,3 +19,4 @@ docker build -t lfi2 ./lfi2
 docker build -t flaskinjection ./flaskinjection
 docker build -t fileupload ./fileupload
 docker build -t biscuit ./biscuit
+docker build -t crazyuncle ./CrazyUncleBensCarStore
